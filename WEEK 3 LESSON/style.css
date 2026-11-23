@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: system-ui,sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 30px;
+}
+#top{
+    color: darkblue;
+    text-align: center;
+    font-weight: bolder;
+}
+.card{
+   padding: 1rem;
+    border: 1px solid #ddd; 
+    border-radius: 8px;
+}
+/*lesson 2*/
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: darkblue;
+}
+.logo{
+    color: white;
+    margin: 0;
+}
+.nav-links{
+    display: flex;
+    gap:30px;
+}
+.nav-links a{
+    color: white;
+    text-decoration: none;
+}
+ ul{
+    list-style: none;
+}
